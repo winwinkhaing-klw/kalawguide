@@ -1,9 +1,9 @@
 <?php 
 session_start();
+$name = "Visitor";
 if($_SESSION['login']){
   $name = $_SESSION['name'];
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,4 +1,4 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Kalaw Guide](http://startbootstrap.com/template-overviews/business-casual/)
+# [Kalaw Guide]
 
 [Kalaw Guide] is a multi pages website theme using PHP and Javascript. This theme features a landing page, about page, blog page, and a contact page along with various custom styles and components.
 
