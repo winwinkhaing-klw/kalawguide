@@ -1,9 +1,8 @@
 <?php 
 session_start();
 $name = "Visitor";
-if($_SESSION['login']){
+if(isset($_SESSION['login'])){
   $name = $_SESSION['name'];
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -147,5 +146,10 @@ if($_SESSION['login']){
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
+
+<?php
+
+} else {
+    header("location:login.php ");
+}
